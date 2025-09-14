@@ -7,12 +7,12 @@ export default function BarChart() {
   return (
     <div>
       <PageMeta
-        title="React.js Chart Dashboard | TailAdmin - React.js Admin Dashboard Template"
-        description="This is React.js Chart Dashboard page for TailAdmin - React.js Tailwind CSS Admin Dashboard Template"
+        title="Lab Management Dashboard | Monthly Bugs Fixed"
+        description="This page displays monthly bug-fix statistics in a bar chart format."
       />
-      <PageBreadcrumb pageTitle="Bar Chart" />
+      <PageBreadcrumb pageTitle="Bug Fix Charts" />
       <div className="space-y-6">
-        <ComponentCard title="Bar Chart 1">
+        <ComponentCard title="Monthly Bugs Fixed">
           <BarChartOne />
         </ComponentCard>
       </div>

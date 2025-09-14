@@ -2,7 +2,7 @@ import Chart from "react-apexcharts";
 import { ApexOptions } from "apexcharts";
 import ChartTab from "../common/ChartTab";
 
-export default function StatisticsChart() {
+export default function TechnicianPerformanceChart() {
   const options: ApexOptions = {
     legend: {
       show: false, // Hide legend
